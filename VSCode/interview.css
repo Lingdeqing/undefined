@@ -1,0 +1,19 @@
+@font-face{
+    font-family: "PingFang Heavy";
+    src: url("PingFang-Heavy.ttf");
+}
+@font-face{
+    font-family: "PingFangSC Medium";
+    src: url("PingFangSC-Medium.ttf");
+}
+
+body{
+    color: #666;
+    font-family: "PingFang Heavy" !important;
+    font-size: 17px !important;
+}
+h2{
+    color: #333;
+    font-size: 25px;
+    font-family: "PingFang Heavy";
+}
