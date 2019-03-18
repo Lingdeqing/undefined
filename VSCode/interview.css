@@ -6,14 +6,34 @@
     font-family: "PingFangSC Medium";
     src: url("PingFangSC-Medium.ttf");
 }
+@font-face{
+    font-family: "PingFangSC Regular";
+    src: url("PingFangSCRegular.ttf");
+}
+
 
 body{
-    color: #666;
-    font-family: "PingFang Heavy" !important;
+    color: #000;
+    font-family: "PingFangSC Regular" !important;
     font-size: 17px !important;
+    line-height: 25px;
+}
+h2, h3, h4, h5, h6{
+    color: #333;
+    font-family: "PingFang Heavy";
+}
+strong{
+    color: #333;
+    font-weight: bold;
+    font-family: "PingFang Medium";
 }
 h2{
-    color: #333;
     font-size: 25px;
-    font-family: "PingFang Heavy";
+    margin-bottom: 18px;
+}
+h3{
+    font-size: 21px;
+}
+ul{
+    margin-bottom: 32px;
 }
