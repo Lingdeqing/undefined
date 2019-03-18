@@ -5,9 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./VSCode/interview.css">
+    <link rel="stylesheet" href="./VSCode/interview.css" data-label="VSCode md2pdf插件css配置">
 </head>
 <body>
-    
+    <script type="text/javascript">
+        const css = document.querySelectorAll('link');
+        css.forEach(item => {
+            const dl = document.createElement('dl');
+            const dt = document.createElement('dt');
+            dt.innerHTML = item.dataset.label;
+            const dd = document.createElement('dd');
+            dd.innerHTML = item.href;
+            document.body.appendChild(dl);
+            dl.appendChild(dt);
+            dl.appendChild(dd);
+        })
+    </script>
 </body>
 </html>
